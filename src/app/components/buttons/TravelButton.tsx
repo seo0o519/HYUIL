@@ -1,4 +1,3 @@
-import { ButtonHTMLAttributes } from "react";
 import { FaChevronRight } from "react-icons/fa6";
 import Link from "next/link";
 
