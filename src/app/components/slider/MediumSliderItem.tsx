@@ -16,8 +16,8 @@ function MediumSliderItem({
   ...props
 }: MediumSliderItemProps) {
   return (
-    <div className="border w-[208px] h-fit flex-row">
-      <div className="border-black rounded-[12px] w-[208px] h-[135px] relative overflow-hidden mb-[8px]">
+    <div className="w-[208px] h-fit flex-row">
+      <div className="rounded-[12px] w-[208px] h-[135px] relative overflow-hidden mb-[8px]">
         <Image
           alt={"backgroundImg"}
           layout="fill"
@@ -25,7 +25,7 @@ function MediumSliderItem({
           objectFit="cover"
         />
       </div>
-      <span className="text-[16px] block border">{label && label}</span>
+      <span className="text-[16px] block leading-[20px]">{label && label}</span>
       <span className="h-fit text-[12px] text-[#999999]">{addr && addr}</span>
     </div>
   );
