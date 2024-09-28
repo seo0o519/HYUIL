@@ -1,18 +1,18 @@
 import Image from "next/image";
 import tmp from "../../../../public/tmp.jpg";
 
-interface LargeSliderItemProps {
+interface MediumInnerTitleItemProps {
   label?: string;
   imgurl?: string;
   children?: React.ReactElement;
 }
 
-function LargeSliderItem({
+function MediumInnerTitleItem({
   label,
   imgurl,
   children,
   ...props
-}: LargeSliderItemProps) {
+}: MediumInnerTitleItemProps) {
   return (
     <div className="border-black rounded-[12px] w-[210px] h-[235px] relative overflow-hidden">
       <Image alt={"backgroundImg"} layout="fill" src={tmp} objectFit="cover"/>
@@ -23,4 +23,4 @@ function LargeSliderItem({
   );
 }
 
-export default LargeSliderItem;
+export default MediumInnerTitleItem;

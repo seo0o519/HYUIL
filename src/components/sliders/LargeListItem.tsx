@@ -1,20 +1,20 @@
 import Image from "next/image";
 import tmp from "../../../../public/tmp.jpg";
 
-interface MediumSliderItemProps {
+interface LargeListItemProps {
   label?: string;
   imgurl?: string;
   addr?: string;
   children?: React.ReactElement;
 }
 
-function MediumSliderItem({
+function LargeListItem({
   label,
   imgurl,
   addr,
   children,
   ...props
-}: MediumSliderItemProps) {
+}: LargeListItemProps) {
   return (
     <div className="w-[208px] h-fit flex-row">
       <div className="rounded-[12px] w-[208px] h-[135px] relative overflow-hidden mb-[8px]">
@@ -31,4 +31,4 @@ function MediumSliderItem({
   );
 }
 
-export default MediumSliderItem;
+export default LargeListItem;
