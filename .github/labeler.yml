@@ -11,7 +11,7 @@ labels:
 
   ':page_with_curl: DOCS':
     include:
-      ['\bDocs\b', '\bDOCS\b',  '\bdocs\b']
+      ['\bDocs\b', '\bDOCS\b', '\bdocs\b']
 
   ':tada: INIT':
     include:
