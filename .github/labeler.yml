@@ -3,8 +3,8 @@ enable:
   prs: true
 
 labels:
-  ':bug: BUG':
-    include: ['\bFix\b', '\bfix\b', '\bFIX\b']
+  ':lady_beetle: BUG':
+    include: ['\bFix\b', '\bfix\b', '\bFIX\b', '\bBug\b', '\bbug\b', '\bBUG\b']
 
   ':sparkles: FEAT':
     include: ['\bFeat\b', '\bFEAT\b', '\bfeat\b']
@@ -15,7 +15,7 @@ labels:
 
   ':tada: INIT':
     include:
-      ['\bInit\b', '\bINIT\b', '\init\b']
+      ['\bInit\b', '\bINIT\b', '\binit\b']
   
   ':lipstick: DESIGN':
     include:
