@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import gps from "./gps.svg"
 
 
 export default function WalkorCarButton() {

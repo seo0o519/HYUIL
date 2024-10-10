@@ -1,8 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Img from "./hotel.png";
-import List from '@mui/material/List';
-import ListItem from "@mui/material/ListItem";
 
 
 export default function SmallListItem(){
