@@ -16,6 +16,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        'walkorcar_blue' : '#527AFF',
+        'likeortype_green' : '#48694A',
+        'likeortype_gray' : '#8F8F8F'
+      }
     },
   },
   plugins: [],
